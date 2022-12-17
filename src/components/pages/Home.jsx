@@ -57,7 +57,7 @@ const Home = ({homePage}) => {
       <div class="infors">
           <figure class="about-container">
               <h1 class="about-title">Sobre</h1>
-              <p class="about-text">Comecei a programa á um ano e meio, assistindo <a href="https://www.youtube.com/@CursoemVideo">video aula no yotube</a> e desenvolvendo pequenos projetos com html, css e js, des de então so fui avançando, aprendendo e aplicando, conhecendo novas linguagens e progredindo. <br /> <br /> Agora desejo entra na area de programação web como desenvolvedor front-end e com isso progredir ainda mais na área.</p>
+              <p class="about-text">Comecei a programar á um ano e meio, assistindo <a href="https://www.youtube.com/@CursoemVideo">video aula no yotube</a> e desenvolvendo pequenos projetos com html, css e js, des de então so fui avançando, aprendendo e aplicando, conhecendo novas linguagens e progredindo. <br /> <br /> Agora desejo entra na area de programação web como desenvolvedor front-end e com isso progredir ainda mais na área.</p>
           </figure>
 
           <figure class="tecnologias-container">
