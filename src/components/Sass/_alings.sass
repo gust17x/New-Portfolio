@@ -1,0 +1,64 @@
+@use 'colors'
+@mixin google-font-roboto
+    font-family: 'Roboto', sem serifa
+    
+@mixin container
+    display: grid
+    grid-template-columns: auto auto
+    grid-template-rows: auto auto
+    padding: 3rem
+    grid-gap: 30px
+
+@mixin content-aling
+    padding: 1rem
+    background: colors.$bg-color-two
+    display: flex
+    align-items: center
+    flex-direction: column
+    border-radius: 10px
+
+@mixin line-efect
+    content: ""
+    display: inline-block
+    height: 3px
+    margin: 0 5px
+    vertical-align: middle
+    position: relative
+    width: 30%
+    background: linear-gradient(90deg, #3b227a 10%,#3b227a00 90%)
+    @media (max-width: 600px)
+                width: 26%    
+@mixin button-a
+            cursor: pointer
+            margin: 30px 0
+            padding: 10px 20px
+            background: linear-gradient(to left,#3b227a, #1e115a, #010039)
+            font-size: 1.5rem
+            border-radius: 30px
+            color: colors.$primary-color  
+            font-weight: 600
+            border: 0
+            transition: .3s
+            &:hover
+                opacity: .8
+                transform: scale(1.1)
+@mixin title-h1
+            font-size: 2.7rem
+            margin: 10px 0
+            color: colors.$primary-color
+            font-weight: 300
+@mixin text-p
+            font-size: 1.2rem
+            letter-spacing: 2px
+            color: colors.$secondary-color
+            font-weight: 300
+@mixin responsive
+    @media (max-width: 900px) 
+            display: flex
+            flex-direction: column
+            padding: 3rem
+            grid-gap: 40px
+
+@mixin responsive-title
+    @media (max-width: 900px) 
+            font-size: 1.9rem
