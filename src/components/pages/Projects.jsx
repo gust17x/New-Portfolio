@@ -2,6 +2,8 @@
 import gallery from '../../img/gallery.png'
 import survivalSland from '../../img/Survival Sland.png'
 import SiteRelogio from '../../img/SITE RELOGIO.png'
+import TaskList from '../../img/TaskList.png'
+import EnvEmail from '../../img/envioEmail.png'
 import '../Sass/projects.sass'
 
 export const Projects = ({projectPage}) => {
@@ -39,9 +41,10 @@ export const Projects = ({projectPage}) => {
           </div>
 
           <div className="box">
+            <img src={TaskList} alt="" />
             <figure className='box-infor'>
                 <nav>
-                <h2 className='infor-title'>Tarefas </h2>
+                <h2 className='infor-title'>TaskList </h2>
                 <p className='infor-text'> <span className='span-infor'>Uma lista de tarefas pra me organizar melhor</span> </p>
                 </nav>
 
@@ -62,11 +65,11 @@ export const Projects = ({projectPage}) => {
           </div>
 
           <div className="box">
-            <img src={SiteRelogio} alt="Imagem do site .env" />
+            <img src={EnvEmail} alt="Imagem do site .env" />
             <figure className='box-infor'>
                 <nav>
                 <h2 className='infor-title'>.env</h2>
-                <p className='infor-text'><span className='span-infor'>Um site que te envia um email com as informaçõe que vc preencher</span></p>
+                <p className='infor-text'><span className='span-infor'>Site que te envia um email com as informaçõe que vc preencher</span></p>
                 </nav>
 
                 <a className='btn-to-project' href='https://env-seven.vercel.app/'>Ver projeto</a>
