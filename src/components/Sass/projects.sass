@@ -6,6 +6,12 @@ body
     @include alings.google-font-roboto
     background: colors.$bg-color
     padding: 2rem
+    animation: anima .5s ease-in-out
+    @keyframes anima 
+        0%
+            opacity: 0
+        100%
+            opacity: 1
     @media (max-width: 600px) 
         padding: .3rem
     h1
@@ -23,7 +29,6 @@ body
         flex-wrap: wrap
         margin: 1rem 0
         gap: 1rem
-        
         .box
             background: #111
             color: colors.$primary-color
@@ -33,6 +38,8 @@ body
             position: relative
             flex-direction: row-reverse
             overflow: hidden
+            max-width: 500px
+        
             &:hover .box-infor
                 transform: translateX(99%)
                 box-shadow: 1px 1px 10px colors.$bg-color-two
@@ -59,14 +66,14 @@ body
                 .infor-title
                     font-weight: 400
                 .infor-text
-                    font-weight: 200
+                    font-weight: 400
                 .span-infor
                     color: #ccc
                 .btn-to-project
                    @include alings.button-a
                    padding: 10px 15px
                    font-size: 1rem
-                   font-weight: 300
+                   font-weight: 500
 
     .div-btn-voltar
         display: flex

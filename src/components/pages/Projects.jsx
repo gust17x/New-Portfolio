@@ -4,6 +4,7 @@ import survivalSland from '../../img/Survival Sland.png'
 import SiteRelogio from '../../img/SITE RELOGIO.png'
 import TaskList from '../../img/TaskList.png'
 import EnvEmail from '../../img/envioEmail.png'
+import provaDev from '../../img/provadev.png'
 import '../Sass/projects.sass'
 
 export const Projects = ({projectPage}) => {
@@ -73,6 +74,18 @@ export const Projects = ({projectPage}) => {
                 </nav>
 
                 <a className='btn-to-project' href='https://env-seven.vercel.app/'>Ver projeto</a>
+             </figure>
+          </div>
+
+          <div className="box">
+            <img src={provaDev} alt="Imagem do site .env" />
+            <figure className='box-infor'>
+                <nav>
+                <h2 className='infor-title'>Prova-dev</h2>
+                <p className='infor-text'><span className='span-infor'>Uma prova com questões sobre programação</span></p>
+                </nav>
+
+                <a className='btn-to-project' href='https://gust17x.github.io/ProvaDev/'>Ver projeto</a>
              </figure>
           </div>
 

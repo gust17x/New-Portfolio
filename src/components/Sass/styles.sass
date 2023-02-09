@@ -22,6 +22,13 @@ i
     @include alings.responsive
     max-width: 1200px
     margin: 0 auto
+    animation: anima 2s ease
+    @keyframes anima 
+        0%
+            opacity: 0
+        100%
+            opacity: 1
+            
     @media (max-width: 900px) 
             padding: 2rem
             gap: 70px
@@ -31,10 +38,10 @@ i
 
     .container-name
         grid-column: span 2
-        font-size: 8vw
+        font-size: 4em
         font-weight: 100
         color: #fff
-        background-image: linear-gradient(45deg,#ffffff 40%, #010039 50%, #ffffff 60%)
+        background-image: linear-gradient(45deg,#ffffff 40%, #2f2f2f 50%, #ffffff 60%)
         color: black
         background-clip: text
         -webkit-background-clip: text
@@ -63,8 +70,6 @@ i
             width: 100%
             border-radius:20px
             transition: .2s
-            &:hover
-                transform: scale(1.1)
         
         .infor-dev
             font-size: 1.3rem
@@ -162,7 +167,7 @@ i
                             font-size: .9rem
                             letter-spacing: 1px
                 a
-                    color: #0033ff
+                    color: #ffffff
 
 
         .tecnologias-container
@@ -225,10 +230,12 @@ i
             display: flex
             align-items: center
             flex-direction: column
+            margin: 20px 0
             h1
                 @include alings.title-h1
                 @include alings.responsive-title
                 width: 100%
+                text-align: center
 
             h1:after
                 @include alings.line-efect
@@ -241,7 +248,7 @@ i
                 vertical-align: middle
                 position: relative
                 width: 30%
-                background: linear-gradient(to left,#3b227a 10%,#cccccc00 90%)
+                background: linear-gradient(to left,aqua 10%,#cccccc00 90%)
                 @media (max-width: 900px) 
                         display: none
             ul
