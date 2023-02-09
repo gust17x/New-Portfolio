@@ -16,32 +16,8 @@ export const Projects = ({projectPage}) => {
         </nav>
 
         <div className="projects">
-            
-          <div className="box">
-             <img src={gallery} alt="imagem do site gallery" /> 
-             <figure className='box-infor'>
-                
-                <nav>
-                  <h2 className='infor-title'>Gallery</h2>
-                  <p className='infor-text'>Site de galeria simples com display grid</p>
-                </nav>
-                  <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Gallery/'>Ver projeto</a>
 
-             </figure>
-          </div>
-          <div className="box">
-            <img src={survivalSland} alt="imagem do site survival sland" />
-            <figure className='box-infor'>
-                <nav>
-                <h2 className='infor-title'>Survival sland</h2>
-                <p className='infor-text'>Site de um jogo que fiz pra um trabalho escolar</p>
-                </nav>
-
-                <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Survival-Sland/'>Ver projeto</a>
-             </figure>
-          </div>
-
-          <div className="box">
+        <div className="box">
             <img src={TaskList} alt="" />
             <figure className='box-infor'>
                 <nav>
@@ -62,6 +38,31 @@ export const Projects = ({projectPage}) => {
                 </nav>
 
                 <a className='btn-to-project' href='https://gust17x.github.io/Relogio/'>Ver projeto</a>
+             </figure>
+          </div>
+
+          <div className="box">
+            <img src={survivalSland} alt="imagem do site survival sland" />
+            <figure className='box-infor'>
+                <nav>
+                <h2 className='infor-title'>Survival sland</h2>
+                <p className='infor-text'>Site de um jogo que fiz pra um trabalho escolar</p>
+                </nav>
+
+                <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Survival-Sland/'>Ver projeto</a>
+             </figure>
+          </div>
+
+          <div className="box">
+             <img src={gallery} alt="imagem do site gallery" /> 
+             <figure className='box-infor'>
+                
+                <nav>
+                  <h2 className='infor-title'>Gallery</h2>
+                  <p className='infor-text'>Site de galeria simples com display grid</p>
+                </nav>
+                  <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Gallery/'>Ver projeto</a>
+
              </figure>
           </div>
 
