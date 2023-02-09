@@ -1,6 +1,7 @@
 // imgs
 import gallery from '../../img/gallery.png'
 import survivalSland from '../../img/Survival Sland.png'
+import SiteRelogio from '../../img/SITE RELOGIO.png'
 import '../Sass/projects.sass'
 
 export const Projects = ({projectPage}) => {
@@ -41,21 +42,34 @@ export const Projects = ({projectPage}) => {
             <figure className='box-infor'>
                 <nav>
                 <h2 className='infor-title'>Tarefas </h2>
-                <p className='infor-text'> <span className='span-infor'>disponivel em breve</span> </p>
+                <p className='infor-text'> <span className='span-infor'>Uma lista de tarefas pra me organizar melhor</span> </p>
                 </nav>
 
-                <a className='btn-to-project' href='#'>Ver projeto</a>
+                <a className='btn-to-project' href='https://gust17x.github.io/task-list/'>Ver projeto</a>
              </figure>
           </div>
 
           <div className="box">
+            <img src={SiteRelogio} alt="Imagem do site relogio" />
             <figure className='box-infor'>
                 <nav>
-                <h2 className='infor-title'>Clone Netflix</h2>
-                <p className='infor-text'><span className='span-infor'>disponivel em breve</span></p>
+                <h2 className='infor-title'>Relogio</h2>
+                <p className='infor-text'><span className='span-infor'>Um relogio in live</span></p>
                 </nav>
 
-                <a className='btn-to-project' href='#'>Ver projeto</a>
+                <a className='btn-to-project' href='https://gust17x.github.io/Relogio/'>Ver projeto</a>
+             </figure>
+          </div>
+
+          <div className="box">
+            <img src={SiteRelogio} alt="Imagem do site .env" />
+            <figure className='box-infor'>
+                <nav>
+                <h2 className='infor-title'>.env</h2>
+                <p className='infor-text'><span className='span-infor'>Um site que te envia um email com as informaçõe que vc preencher</span></p>
+                </nav>
+
+                <a className='btn-to-project' href='https://env-seven.vercel.app/'>Ver projeto</a>
              </figure>
           </div>
 
