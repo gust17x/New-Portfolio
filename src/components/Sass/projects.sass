@@ -42,7 +42,7 @@ body
         
             &:hover .box-infor
                 transform: translateX(99%)
-                box-shadow: 1px 1px 10px colors.$bg-color-two
+                
             img
                 width: 100%
                 height: 100%
@@ -53,16 +53,17 @@ body
 
             .box-infor
                 position: relative
-                background: linear-gradient(45deg, colors.$bg-color, colors.$bg-color-two)
+                background: linear-gradient(45deg, colors.$bg-color-two, #333)
+                box-shadow: 1px 1px 9px #222
                 padding: 1rem
-                max-width: 60%
+                max-width: 50%
                 right: 100%
                 transition: .2s
                 display: flex
                 flex-direction: column
                 justify-content: flex-end
                 align-items: flex-start
-
+            
                 .infor-title
                     font-weight: 400
                 .infor-text
