@@ -13,7 +13,8 @@ body
         100%
             opacity: 1
     @media (max-width: 600px) 
-        padding: .3rem
+        padding: 1rem
+        max-width: 400px
     h1
         color: colors.$primary-color
         font-size: 3.3rem
@@ -29,6 +30,8 @@ body
         flex-wrap: wrap
         margin: 1rem 0
         gap: 1rem
+        @media (max-width: 600px)
+            gap: 5px
         .box
             background: #111
             color: colors.$primary-color
@@ -39,6 +42,11 @@ body
             flex-direction: row-reverse
             overflow: hidden
             max-width: 500px
+            @media (max-width: 600px)
+                flex: 1 1 200px
+            @media (max-width: 400px)
+                flex: 1 1 150px
+                height: 200px
         
             &:hover .box-infor
                 transform: translateX(99%)
@@ -63,18 +71,29 @@ body
                 flex-direction: column
                 justify-content: flex-end
                 align-items: flex-start
-            
+                @media (max-width: 400px)
+                    padding: 3px
+                    max-width: 50%
                 .infor-title
                     font-weight: 400
+                    @media (max-width: 400px)
+                        font-size: 1em
                 .infor-text
                     font-weight: 400
+                    color: #ccc
+                    @media (max-width: 400px)
+                        font-size: .7em
+                        margin-bottom: 4px
                 .span-infor
                     color: #ccc
                 .btn-to-project
                    @include alings.button-a
-                   padding: 10px 15px
+                   padding: 10px 10px
                    font-size: 1rem
                    font-weight: 500
+                   @media (max-width: 400px)
+                        padding: 3px 1px
+                        font-size: .6em
 
     .div-btn-voltar
         display: flex
