@@ -59,9 +59,9 @@ export const Projects = ({projectPage}) => {
                 
                 <nav>
                   <h2 className='infor-title'>Gallery</h2>
-                  <p className='infor-text'>Site de galeria simples com display grid</p>
+                  <p className='infor-text'>Disponivel em breve</p>
                 </nav>
-                  <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Gallery/'>Ver projeto</a>
+                  <a className='btn-to-project' target={'_blank'} href='#'>Ver projeto</a>
 
              </figure>
           </div>
