@@ -1,5 +1,5 @@
 // imgs
-import gallery from '../../img/gallery.png'
+import gallery from '../../img/site gallery2.0.png'
 import survivalSland from '../../img/Survival Sland.png'
 import SiteRelogio from '../../img/SITE RELOGIO.png'
 import TaskList from '../../img/TaskList.png'
@@ -30,6 +30,19 @@ export const Projects = ({projectPage}) => {
           </div>
 
           <div className="box">
+             <img src={gallery} alt="imagem do site gallery" /> 
+             <figure className='box-infor'>
+                
+                <nav>
+                  <h2 className='infor-title'>Gallery</h2>
+                  <p className='infor-text'>Site de galeria simples com display grid</p>
+                </nav>
+                  <a className='btn-to-project' target={'_blank'} href='https://gallery-gold.vercel.app/'>Ver projeto</a>
+
+             </figure>
+          </div>
+          
+          <div className="box">
             <img src={SiteRelogio} alt="Imagem do site relogio" />
             <figure className='box-infor'>
                 <nav>
@@ -53,18 +66,7 @@ export const Projects = ({projectPage}) => {
              </figure>
           </div>
 
-          <div className="box">
-             <img src={gallery} alt="imagem do site gallery" /> 
-             <figure className='box-infor'>
-                
-                <nav>
-                  <h2 className='infor-title'>Gallery</h2>
-                  <p className='infor-text'>Site de galeria simples com display grid</p>
-                </nav>
-                  <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Gallery/'>Ver projeto</a>
 
-             </figure>
-          </div>
 
           <div className="box">
             <img src={EnvEmail} alt="Imagem do site .env" />
