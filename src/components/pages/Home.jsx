@@ -98,6 +98,11 @@ const Home = ({homePage}) => {
                       <i class="fa-brands fa-node"></i>
                       <h3 class="tecnology-title">Node (basico)</h3>
                   </nav>
+
+                  <nav class="tecnology-card bootstrap">
+                  <i class="fa-brands fa-bootstrap"></i>
+                      <h3 class="tecnology-title">Bootstrap</h3>
+                  </nav>
               </div>
 
           </figure>
