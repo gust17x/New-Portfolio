@@ -1,5 +1,5 @@
 // imgs
-import gallery from '../../img/envioEmail.png'
+// import gallery from '../../img/envioEmail.png'
 import survivalSland from '../../new-survivalsland 2023-03-13 132540.png'
 import SiteRelogio from '../../img/SITE RELOGIO.png'
 import TaskList from '../../img/TaskList.png'
@@ -17,7 +17,7 @@ export const Projects = ({projectPage}) => {
         <div className="projects">
             
           <div className="box">
-             <img src={gallery} alt="imagem do site gallery" /> 
+             {/* <img src={gallery} alt="imagem do site gallery" />  */}
              <figure className='box-infor'>
                 
                 <nav>
