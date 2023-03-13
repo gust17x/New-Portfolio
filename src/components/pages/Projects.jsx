@@ -1,6 +1,6 @@
 // imgs
 import gallery from '../../img/gallery.png'
-import survivalSland from '../../img/Survival Sland.png'
+import survivalSland from '../../new-survivalsland 2023-03-13 132540.png'
 import SiteRelogio from '../../img/SITE RELOGIO.png'
 import TaskList from '../../img/TaskList.png'
 import EnvEmail from '../../img/envioEmail.png'
