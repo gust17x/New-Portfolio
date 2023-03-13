@@ -36,7 +36,7 @@ export const Projects = ({projectPage}) => {
                 <p className='infor-text'>Site de um jogo que fiz pra um trabalho escolar</p>
                 </nav>
 
-                <a className='btn-to-project' target={'_blank'} href='https://gust17x.github.io/Survival-Sland/'>Ver projeto</a>
+                <a className='btn-to-project' target={'_blank'} href='https://survival-sland.vercel.app/'>Ver projeto</a>
              </figure>
           </div>
 
