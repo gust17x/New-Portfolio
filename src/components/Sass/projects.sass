@@ -1,0 +1,108 @@
+@use 'alings'
+@use 'colors'
+body
+    background: colors.$bg-color
+.projects-container
+    @include alings.google-font-roboto
+    background: colors.$bg-color
+    padding: 2rem
+    animation: anima .5s ease-in-out
+    @keyframes anima 
+        0%
+            opacity: 0
+        100%
+            opacity: 1
+    @media (max-width: 600px) 
+        padding: 1rem
+        max-width: 400px
+    h1
+        color: colors.$primary-color
+        font-size: 3.3rem
+        font-weight: 100
+    .menu
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 100%
+
+    .projects
+        display: flex
+        flex-wrap: wrap
+        margin: 1rem 0
+        gap: 1rem
+        @media (max-width: 600px)
+            gap: 5px
+        .box
+            background: #111
+            color: colors.$primary-color
+            height: 300px
+            display: flex
+            flex: 1 1 300px
+            position: relative
+            flex-direction: row-reverse
+            overflow: hidden
+            max-width: 500px
+            @media (max-width: 600px)
+                flex: 1 1 200px
+            @media (max-width: 400px)
+                flex: 1 1 150px
+                height: 200px
+        
+            &:hover .box-infor
+                transform: translateX(99%)
+                box-shadow: 1px 1px 9px #222
+                
+            img
+                width: 100%
+                height: 100%
+                position: absolute
+                object-fit: cover
+                top: 0
+                left: 0
+
+            .box-infor
+                position: relative
+                background: linear-gradient(45deg, colors.$bg-color-two, #333)
+                padding: 1rem
+                max-width: 50%
+                right: 100%
+                transition: .2s
+                display: flex
+                flex-direction: column
+                justify-content: flex-end
+                align-items: flex-start
+                @media (max-width: 400px)
+                    padding: 5px
+                    max-width: 60%
+                .infor-title
+                    font-weight: 400
+                    @media (max-width: 400px)
+                        font-size: 1em
+                .infor-text
+                    font-weight: 400
+                    color: #ccc
+                    @media (max-width: 400px)
+                        font-size: .7em
+                        margin-bottom: 7px
+                .span-infor
+                    color: #ccc
+                .btn-to-project
+                   @include alings.button-a
+                   padding: 10px 10px
+                   font-size: 1rem
+                   font-weight: 500
+                   @media (max-width: 400px)
+                        padding: 3px 2px
+                        font-size: .8em
+                        background: #fff
+                        color: #222
+
+    .div-btn-voltar
+        display: flex
+        justify-content: end
+    .btn-voltar
+        @include alings.button-a
+        align-self: flex-end
+    
+
+    
