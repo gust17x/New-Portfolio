@@ -25,7 +25,7 @@ export const Projects = ({projectPage}) => {
                   <h2 className='infor-title'>Gallery</h2>
                   <p className='infor-text'>Site de galeria estilo pinterest</p>
                 </nav>
-                  <a className='btn-to-project' target={'_blank'} href='https://gallery-taupe.vercel.app/'>Ver projeto</a>
+                  <a className='btn-to-project' target={'_blank'} href='https://gallery-5kk475906-gust17x.vercel.app/'>Ver projeto</a>
 
              </figure>
           </div>
