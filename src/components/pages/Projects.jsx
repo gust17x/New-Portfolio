@@ -1,5 +1,5 @@
 // imgs
-import gallery from '../../site gallery2.0.png'
+import gallery from '../../img/envioEmail.png'
 import survivalSland from '../../new-survivalsland 2023-03-13 132540.png'
 import SiteRelogio from '../../img/SITE RELOGIO.png'
 import TaskList from '../../img/TaskList.png'
