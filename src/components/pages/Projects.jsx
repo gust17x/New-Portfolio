@@ -32,7 +32,7 @@ export const Projects = ({ projectPage }) => {
         </div>
 
         <div className="box">
-          <img src={MatematicaSite} alt="Imagem do site blog" />
+          <img src={Blogsite} alt="Imagem do site blog" />
           <figure className='box-infor'>
 
             <nav>
