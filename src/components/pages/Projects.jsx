@@ -5,6 +5,7 @@ import TaskList from '../../img/TaskList.png'
 import EnvEmail from '../../img/envioEmail.png'
 import provadev from '../../img/provadev.png'
 import MatematicaSite from '../../img/Matematicasite.png'
+import Blogsite from '../../img/printBlog.png'
 import '../Sass/projects.sass'
 
 export const Projects = ({ projectPage }) => {
@@ -18,7 +19,7 @@ export const Projects = ({ projectPage }) => {
       <div className="projects">
 
         <div className="box">
-          <img src={MatematicaSite} alt="imagem do site matematica.site"/>
+          <img src={MatematicaSite} alt="imagem do site matematica.site" />
           <figure className='box-infor'>
 
             <nav>
@@ -26,6 +27,19 @@ export const Projects = ({ projectPage }) => {
               <p className='infor-text'>Site que gera<br /> contas aleatorias</p>
             </nav>
             <a className='btn-to-project' target={'_blank'} href='https://matematica-site.vercel.app/'>Ver projeto</a>
+
+          </figure>
+        </div>
+
+        <div className="box">
+          <img src={MatematicaSite} alt="Imagem do site blog" />
+          <figure className='box-infor'>
+
+            <nav>
+              <h2 className='infor-title'>Blog</h2>
+              <p className='infor-text'>Blog <br /> de aprendizado</p>
+            </nav>
+            <a className='btn-to-project' target={'_blank'} href='https://blog-six-chi-24.vercel.app/'>Ver projeto</a>
 
           </figure>
         </div>
